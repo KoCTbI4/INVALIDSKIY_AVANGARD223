@@ -64,7 +64,7 @@ function startSession() {
   const formData = new FormData();
   formData.append('image', currentImageFile);
 
-  fetch('https://noncontinuably-meatier-ardella.ngrok-free.dev/api/start_chat', {
+  fetch('https://noncontinuably-meatier-ardella.ngrok-free.dev', {
     method: 'POST',
     body: formData,
   })
