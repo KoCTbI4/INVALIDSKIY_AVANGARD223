@@ -24,7 +24,7 @@ uploadInput.addEventListener('change', async (e) => {
   addMessageToChat('bot', 'Обработка...');
 
   try {
-    const response = await fetch('https://noncontinuably-meatier-ardella.ngrok-free.dev/api/describe', {
+    const response = await fetch('https://noncontinuably-meatier-ardella.ngrok-free.dev', {
       method: 'POST',
       body: formData,
     });
