@@ -140,7 +140,7 @@ uploadInput.addEventListener('change', async (e) => {
   formData.append('file', file);
 
   try {
-    const response = await fetch('https://noncontinuably-meatier-ardella.ngrok-free.dev/api/describe', {
+    const response = await fetch('https://noncontinuably-meatier-ardella.ngrok-free.dev', {
       method: 'POST',
       body: formData,
     });
